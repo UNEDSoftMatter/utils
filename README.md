@@ -1,6 +1,18 @@
 # utils
 Frequently used generic (quick and dirty) programs
 
+## python/EigenSystem/EigenSystem.py
+
+*Description*: This program computes the eigensystem (eigenvalues and eigenvector) of a time dependent matrix
+``` 
+     / A11 A12 A13 \
+ A = | A21 A22 A23 |
+     \ A31 A32 A33 /
+```
+This program ensures continuity of the sorted eigenvalues and eigenvectors.
+
+*Usage*: `python EigenSystem.py INPUT`
+
 ## awk/Matrix-to-3Cols.awk
 
 *Description*:  This program converts  a matrix written in matrix  form into a 3
